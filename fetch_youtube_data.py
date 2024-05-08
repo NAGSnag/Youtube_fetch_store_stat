@@ -7,7 +7,7 @@ from pymongo import MongoClient
 
 
 
-API_KEY = 'AIzaSyDrpH4D7DsFNLXAi_0VEhBg-I7T515oN2A'
+API_KEY = ''
 youtube = build("youtube", "v3", developerKey=API_KEY)
 
 def get_channel_info(channel_id):
